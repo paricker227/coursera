@@ -12,7 +12,7 @@ body {
 }
 
 #collapsable-nav {
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
   color: white;
 }
@@ -24,6 +24,10 @@ body {
   padding-top: 25px;
 }
 
+
+#main-content {
+  padding: 25px;
+}
 .navbar-brand h1 { 
   color: black;
   font-size: 1.5em;
@@ -36,15 +40,19 @@ body {
   width: 100%;
 }
 
-.jumbotron{
-  color: black;
+#chickenDescr{
+  color:black;
+  background-color: grey;
+  height: 10000px;
+  padding: 10px;
+}
+
+#chickenHeader{
+  text-align: center;
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
-    height: 1000px;
-  }
    .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left; 
   }
@@ -89,9 +97,7 @@ body {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  .container .jumbotron {
-    height: 10000px;
-  }
+
  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left; 
   }
@@ -136,9 +142,6 @@ body {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-  .container .jumbotron {
-    height: 1000px;
-  }
  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left; 
   }
@@ -197,11 +200,7 @@ body {
 
   /* End Header */
 
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-    height: 10000px;
-  }
+
  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left; 
   }
