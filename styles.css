@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: blue;
+  width:100%;
 }
 
 /** HEADER **/
@@ -23,7 +24,7 @@ body {
 }
 
 #main-content {
-  padding: 25px;
+  padding: 25px; 
   float: center;
 }
 #MenuHeader{
@@ -44,7 +45,7 @@ body {
   color:black;
   background-color: grey;
   height: 10000px;
-  padding: 10px;
+ /* padding: 10px;*/
 
 }
 
