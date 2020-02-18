@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: blue;
+  width:100%;
 }
 
 /** HEADER **/
@@ -9,42 +10,46 @@ body {
   background-color: red;
   border-radius: 0;
   border: 0;
+  width: 100%;
+  color: white;
 }
 
 #collapsable-nav {
-  /*width: 100%;*/
   text-align: center;
   color: white;
 }
 
+#FoodLLC {
+  float: left;
+}
 #nav-list {
   color: black;
 }
-.navbar-brand {
-  padding-top: 25px;
-}
-
 
 #main-content {
-  padding: 25px;
+  padding: 25px; 
+  float: center;
+  width: 99%;
 }
+#MenuHeader{
+  color: white;
+  text-align: center;
+}
+
 .navbar-brand h1 { 
-  color: black;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  width: 100%;
+  text-align: left;
 }
 
 #chickenDescr{
   color:black;
   background-color: grey;
   height: 10000px;
-  padding: 10px;
+ /* padding: 10px;*/
+
 }
 
 #chickenHeader{
